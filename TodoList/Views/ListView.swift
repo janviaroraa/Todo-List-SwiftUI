@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// @State can only be used in a struct, and not in class
 struct ListView: View {
     
     @State var items: [ItemModel] = [
